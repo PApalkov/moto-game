@@ -1,6 +1,6 @@
 # Moto Game
 
-Статичное приложение на чистом HTML + CSS.
+Игра Gravity Defied — один самодостаточный HTML-файл, без сборки и зависимостей.
 
 ## Публикация
 
@@ -15,7 +15,7 @@ Settings → Pages → **Source: GitHub Actions**.
 
 ## Локальный запуск
 
-Достаточно открыть `index.html` в браузере. Либо поднять локальный сервер:
+Достаточно открыть `gravity-defied_1.html` в браузере. Либо поднять локальный сервер:
 
 ```bash
 python3 -m http.server 8000
@@ -26,7 +26,7 @@ python3 -m http.server 8000
 ## Структура
 
 ```
-index.html   — разметка
-styles.css   — стили
-.nojekyll    — отключает обработку Jekyll на Pages
+gravity-defied_1.html   — сама игра (разметка + стили + логика в одном файле)
+index.html              — точка входа, редиректит на игру
+.nojekyll               — отключает обработку Jekyll на Pages
 ```
